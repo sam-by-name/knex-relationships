@@ -9,10 +9,7 @@
     "start": "node index",
     "test": "jest --watchAll"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/boilerplate-knex.git"
-  },
+  "repository": "git+https://github.com/dev-academy-challenges/boilerplate-knex.git",
   "author": "EDA",
   "license": "ISC",
   "bugs": {
@@ -22,8 +19,8 @@
   "dependencies": {
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "knex": "^0.14.2",
-    "sqlite3": "^3.1.13"
+    "knex": "^0.14.6",
+    "sqlite3": "^4.0.0"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",

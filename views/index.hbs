@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>EDA Phase 1 Express Boilerplate</title>
-  </head>
-  <body>
-    <ul>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+      <ul>
     {{#each users}}
-      <li>{{name}} ({{email}})</li>
+      <a href="/profile{{id}}"><li>{{name}} ({{email}})</li></a>
     {{/each}}
     </ul>
-  </body>
+
+</body>
 </html>
-hi
